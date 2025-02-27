@@ -1,11 +1,11 @@
 :root {
   color-scheme: dark;
-  --bg: #212121;
-  --accent-bg: #2b2b2b;
-  --text: #dcdcdc;
+  --bg: #2b2b2b;
+  --accent-bg: white;
+  --text: white;
   --text-light: #ababab;
-  --accent: #ffb300;
-  --accent-hover: #ffe099;
+  --accent: lightgreen;
+  --accent-hover: lightgreen;
   --accent-text: var(--bg);
   --code: #f06292;
   --preformatted: #ccc;
@@ -13,8 +13,8 @@
 }
 
 main, header{
-font-family: monospace;
-font-size: 21px;
+font-family: Inter, sans-serif;
+font-size: 19px;
 }
 
 
@@ -22,9 +22,8 @@ p {color: white; }
 
 h1, h2, h3, h4 {
     color: lightgreen;
-    font-size: 32px;
+    font-size: 40px;
     border-bottom: solid;
-    /* border-bottom-color: white;  */
 }
 
 header > h1 {border-bottom: none;}
