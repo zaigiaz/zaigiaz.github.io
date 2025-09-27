@@ -3,7 +3,7 @@ class HexagonalBackground {
     this.canvas = canvas;
     this.ctx = canvas.getContext('2d');
     this.hexSize = 30;
-    this.hexColor = 'rgba(255,255,100,0.15)';
+      this.hexColor = 'rgba(100,250,100,0.22)';
     this.lineWidth = 1;
     this.scrollSpeed = 30; // pixels per second
     this.offset = 0;

@@ -1,7 +1,0 @@
-* Overview
-hexagonal or moving background with javascript
-be even more minimal with just contact information and other shit
-
-monochrome aesthetic to make it easier to read I guess?
-
-Have a Project Showcase Page and thier affects

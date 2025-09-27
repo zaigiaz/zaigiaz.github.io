@@ -4,14 +4,18 @@
   --accent-bg: black;
   --text: #dcdcdc;
   --text-light: #ababab;
-  --accent: white;
-  --accent-hover: #f06292;
+  --accent: rgb(100, 250,100);
+  --accent-hover: yellow;
   --accent-text: var(--bg);
   --code: #f06292;
   --preformatted: #ccc;
   --disabled: #111;
 }
 
+
+nav > a {  
+border-radius: 0%;
+}
 
 body {
 
@@ -22,7 +26,7 @@ body {
 /* body { background-color: black; } */
 
 header {
-    height: 165px;  /* Adjust to desired height */
+    height: 165px;
     line-height: 50px;
     padding: 0 10px;
 }
@@ -35,10 +39,22 @@ body {
 }
 
 
-h1, h2, h3, h4 {
+h1 {
     font-size: 2.0rem;
     border-bottom: solid;
 }
+
+h2 {
+ font-size: 1.8rem;
+ border-bottom: solid;
+ }
+
+
+h3 {
+ font-size: 1.7rem;
+ border-bottom: solid;
+ }
+
 
 header > h1 {border-bottom: none;}
 
