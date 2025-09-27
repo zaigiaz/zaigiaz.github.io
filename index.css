@@ -1,16 +1,30 @@
 :root {
-    color-scheme: dark;
+  color-scheme: dark;
   --bg: black;
-  --text: white;
+  --accent-bg: black;
+  --text: #dcdcdc;
+  --text-light: #ababab;
+  --accent: white;
+  --accent-hover: #f06292;
+  --accent-text: var(--bg);
+  --code: #f06292;
+  --preformatted: #ccc;
+  --disabled: #111;
 }
 
 
+body {
+
+  background-color: black; 
+  color: white;
+}
+
+/* body { background-color: black; } */
+
 header {
-    background-color: black;
     height: 165px;  /* Adjust to desired height */
     line-height: 50px;
     padding: 0 10px;
-
 }
 
 p { font-size: 1.2rem;}
