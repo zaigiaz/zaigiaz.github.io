@@ -14,7 +14,7 @@
 
 
 body {
-
+    
   background-color: black; 
   color: white;
 }
@@ -27,30 +27,29 @@ header {
     padding: 0 10px;
 }
 
-p { font-size: 1.2rem;}
+p { font-size: 1.1rem;}
 
 
 body {
     margin: 0;
-    overflow: hidden;
 }
 
 nav { text-align: center; }
 
 h1 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     text-align: center;
     border-bottom: none;    
 }
 
 h2 {
- font-size: 1.8rem;
+ font-size: 1.6rem;
  border-bottom: solid;
  }
 
 
 h3 {
- font-size: 1.7rem;
+ font-size: 1.6rem;
  border-bottom: solid;
  }
 
